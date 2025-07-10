@@ -36,15 +36,6 @@ The dataset was cleaned using **Pandas**:
 - Removed duplicates and handled missing data
 - Created `Total_Amount` as a new field for transaction value
 
-```python
-# Example cleaning steps:
-df['unit_price'] = df['unit_price'].replace(r'[\$,]', '', regex=True).astype(float)
-df['quantity'] = df['quantity'].fillna(1).astype(int)
-df['date'] = pd.to_datetime(df['date'], format='%d/%m/%y')
-df['time'] = pd.to_datetime(df['time'], format='%H:%M:%S').dt.time
-df['Total_Amount'] = df['unit_price'] * df['quantity']
-
-
 ## 🛠️ Tools Used
 Python (Jupyter Notebook)
 Pandas, Seaborn, Matplotlib
