@@ -37,11 +37,11 @@ The dataset was cleaned using **Pandas**:
 - Created `Total_Amount` as a new field for transaction value
 
 ## 🛠️ Tools Used
-Python (Jupyter Notebook)
-Pandas, Seaborn, Matplotlib
-MySQL (Workbench)
-Excel (preview/validation)
-Git & GitHub (for version control)
+- Python (Jupyter Notebook)
+- Pandas, Seaborn, Matplotlib
+- MySQL (Workbench)
+- Excel (preview/validation)
+- Git & GitHub (for version control)
 
 ## 📊 Exploratory Data Analysis (EDA)
 
