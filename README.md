@@ -44,10 +44,33 @@ df['date'] = pd.to_datetime(df['date'], format='%d/%m/%y')
 df['time'] = pd.to_datetime(df['time'], format='%H:%M:%S').dt.time
 df['Total_Amount'] = df['unit_price'] * df['quantity']
 
-🛠️ Tools Used
+
+## 🛠️ Tools Used
 Python (Jupyter Notebook)
 Pandas, Seaborn, Matplotlib
 MySQL (Workbench)
 Excel (preview/validation)
 Git & GitHub (for version control)
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis (EDA) is the process of analyzing and visualizing datasets to summarize their main characteristics, often using statistical graphics and plotting tools. EDA helps us understand patterns, detect anomalies, test hypotheses, and check assumptions.
+
+In this project, EDA was performed using Python libraries like **Pandas**, **Seaborn**, and **Matplotlib** to uncover key insights from Walmart's sales data. The visualizations provided a deeper understanding of:
+
+- **Revenue trends** across branches and product categories
+- **Sales behavior** across different hours of the day
+- **Customer preferences** for payment methods
+- **Customer satisfaction** through average ratings
+- **Correlations** between unit price, quantity, profit, and ratings
+
+### Key EDA Objectives:
+- Identify the branch with the highest revenue
+- Analyze which product categories are most popular and profitable
+- Examine peak shopping hours to understand customer buying patterns
+- Study the relationship between quantity, pricing, and profit margin
+- Visualize customer ratings by product category to evaluate satisfaction
+
+These insights are critical for understanding business performance and can assist Walmart in making data-driven decisions for marketing, inventory management, and customer experience optimization.
+
 
