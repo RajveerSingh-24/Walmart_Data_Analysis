@@ -7,17 +7,17 @@ USE st_project_1;
 
 -- create table
 CREATE TABLE walmart_dataset (
-	  invoice_id VARCHAR(20),
-    branch VARCHAR(5),
-    city VARCHAR(50),
-    category VARCHAR(20),
-    unit_price FLOAT,
-    quantity INT,
-    date DATE,
-    time TIME,
-    payment_method VARCHAR(20),
-    rating FLOAT,
-    profit_margin FLOAT
+	invoice_id VARCHAR(50),
+	branch VARCHAR(20),
+    	city VARCHAR(50),
+    	category VARCHAR(20),
+    	unit_price FLOAT,
+    	quantity INT,
+    	date DATE,
+    	time TIME,
+    	payment_method VARCHAR(50),
+    	rating FLOAT,
+    	profit_margin FLOAT
 );
 
 ALTER TABLE walmart_dataset
