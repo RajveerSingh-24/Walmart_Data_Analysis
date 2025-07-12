@@ -1,0 +1,26 @@
+-- Create database
+CREATE DATABASE st_project_1;
+
+-- use database st_project_1
+USE st_project_1;
+
+
+-- create table
+CREATE TABLE walmart_dataset (
+	  invoice_id VARCHAR(20),
+    branch VARCHAR(5),
+    city VARCHAR(50),
+    category VARCHAR(20),
+    unit_price FLOAT,
+    quantity INT,
+    date DATE,
+    time TIME,
+    payment_method VARCHAR(20),
+    rating FLOAT,
+    profit_margin FLOAT
+);
+
+ALTER TABLE walmart_dataset
+MODIFY COLUMN category VARCHAR(50);
+
+SELECT * FROM walmart_dataset;
